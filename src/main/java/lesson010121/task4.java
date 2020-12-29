@@ -24,7 +24,7 @@ public class task4 {
 
             }
 
-            if(isUglyNumber){
+            if(isUglyNumber || number==1){
                 System.out.println(number + " ugly number-dir");
             }
             else{
