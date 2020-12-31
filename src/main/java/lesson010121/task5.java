@@ -6,7 +6,7 @@ public class task5 {
 
     public static void main(String[] args) {
 
-        findDivisorsSum(100);
+        findDivisorsSum(10000);
 
 
 
