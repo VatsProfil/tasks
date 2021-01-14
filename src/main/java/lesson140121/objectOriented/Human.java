@@ -51,7 +51,7 @@ public class Human {
     }
 
     public void setPet(Pet pet) {
-        this.pet = pet;
+        pet = new Pet();
     }
 
     public Human getMother() {
@@ -94,13 +94,7 @@ public class Human {
 
 
     public String toString(Human human) {
-        System.out.println("Human{name='"+human.name+"', surname='"+human.surname+"', year="+human.year+", iq="+human.iq+", mother= "+human.mother+", father = "+human.father+", pet= "+human.pet);
-    return "1";
-
-
-
-
-
+    return  "Human{name='"+human.name+"', surname='"+human.surname+"', year="+human.year+", iq="+human.iq+", mother= "+human.mother+", father = "+human.father+", pet= "+human.pet;
 
     }
 }
