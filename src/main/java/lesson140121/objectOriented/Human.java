@@ -1,4 +1,4 @@
-package lesson140121.task2;
+package lesson140121.objectOriented;
 
 public class Human {
 
