@@ -147,13 +147,14 @@ public class taskLetterDiamond {
                 System.out.print((char)j + " ");
                 num=j;
             }
+
             for (int k=num-1; k>=65; k--){
                 System.out.print((char)k + " ");
             }
 
-
             System.out.println();
             spaceNum-=2;
+
         }
 
 
@@ -162,12 +163,10 @@ public class taskLetterDiamond {
 
         for(int i=charNum;i>=65;i--){
 
-
             for (int j=0;j<=duplicateSpaceNum;j++){
                 System.out.print(" ");
 
             }
-
 
             for(int k=65;k<=i;k++) {
                 System.out.print((char) k+ " ");
@@ -175,17 +174,12 @@ public class taskLetterDiamond {
 
             }
 
-
-
             for (int k=i-1; k>=65; k--){
                 System.out.print((char)k + " ");
             }
 
-
-
             System.out.println();
             duplicateSpaceNum+=2;
-
 
         }
 
