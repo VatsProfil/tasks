@@ -55,6 +55,8 @@ public class Main {
 
         System.out.println(Danny.toString());
 
+        Danny.feedPet(false);
+
 
 
 

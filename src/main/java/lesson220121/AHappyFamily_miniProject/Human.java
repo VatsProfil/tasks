@@ -1,5 +1,7 @@
 package lesson220121.AHappyFamily_miniProject;
 
+import java.util.Random;
+
 public class Human {
 
     private String name;
@@ -134,6 +136,24 @@ public class Human {
     }
 
     public Human(){
+
+    }
+
+    public void feedPet(boolean isFeedingTime) {
+
+        Random random = new Random();
+        int randomNumber = random.nextInt(100)+1;
+        if(isFeedingTime){
+            System.out.println("Hm, I will feed "+this.pet.getNickname());
+        }
+        else{
+            if(this.pet.getTricklevel()>randomNumber){
+                System.out.println("Hm, I will feed "+this.pet.getNickname());
+            }
+            else
+                System.out.println("I think "+this.pet.getNickname()+" is not hungry");
+        }
+
 
     }
 
